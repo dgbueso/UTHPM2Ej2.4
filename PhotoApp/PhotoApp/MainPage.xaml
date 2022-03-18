@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PhotoApp.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Gray" Padding="24" CornerRadius="0">
+            <Label Text="Ejercicio 2.4 PM2 Daniel Guardado Bueso" HorizontalTextAlignment="Center" TextColor="White" FontSize="28"/>
+        </Frame>
+        <Image Source="https://www.linkpicture.com/q/logoGC.jpg" HorizontalOptions="Center" />
+        <Button x:Name="btnAddVideo"  BackgroundColor="Gray" Text="Añadir Video" Clicked="btnAddVideo_Clicked"></Button>
+        <Button x:Name="btnViewVideos"  BackgroundColor="Gray" Text="Ver Videos" Clicked="btnViewVideos_Clicked"></Button>
+
+    </StackLayout>
+
+</ContentPage>
+
+
